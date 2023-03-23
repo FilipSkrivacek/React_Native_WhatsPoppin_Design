@@ -32,7 +32,7 @@ const TabNavigator = () => {
             let iconName;
             let rn = route.name;
 
-            if (rn === "Události") {
+            if (rn === "UdálostiStack") {
               iconName = focused ? "home" : "home-outline";
             } else if (rn === "Nastavení") {
               iconName = focused ? "settings" : "settings-outline";
@@ -50,7 +50,7 @@ const TabNavigator = () => {
           tabBarShowLabel: false,
         })}
       >
-        <Tab.Screen name="Události" component={HomeStack} />
+        <Tab.Screen name="UdálostiStack" component={HomeStack} />
         <Tab.Screen name="Nastavení" component={SettingsScreen} />
         <Tab.Screen name="Přidat událost" component={AddScreen} />
       </Tab.Navigator>

@@ -10,21 +10,24 @@ const SettingsScreen = () => {
 
   const styles = StyleSheet.create({
     root: {
+      flex: 1,
       flexDirection: "column",
-      alignItems: "flex-start",
-      padding: 50,
+      alignItems: "stretch",
+      paddingTop: 100,
+      paddingLeft: 30,
+      paddingRight: 30,
     },
     row: {
       flexDirection: "row",
       alignItems: "center",
       marginBottom: 20,
-      justifyContent: "flex-end",
+      justifyContent: "space-between",
     },
     title: {
+      flex: 1,
       fontSize: 23,
       fontWeight: "bold",
       fontFamily: "Bebas Neue",
-      marginRight: 70,
     },
     switch: {
       alignSelf: "flex-end",
@@ -37,9 +40,9 @@ const SettingsScreen = () => {
         <Text style={styles.title}>Povolit sdílení polohy:</Text>
         <Switch
           style={styles.switch}
-          trackColor={{ false: "#767577", true: "#81b0ff" }}
-          thumbColor={isEnabled1 ? "#f5dd4b" : "#f4f3f4"}
-          ios_backgroundColor="#3e3e3e"
+          trackColor={{ false: "#f4f3f4", true: "#013A63" }}
+          thumbColor={isEnabled1 ? "#f4f3f4" : "#013A63"}
+          ios_backgroundColor="white"
           onValueChange={toggleSwitch1}
           value={isEnabled1}
         />
@@ -48,9 +51,9 @@ const SettingsScreen = () => {
         <Text style={styles.title}>Povolit oznámení:</Text>
         <Switch
           style={styles.switch}
-          trackColor={{ false: "#767577", true: "#81b0ff" }}
-          thumbColor={isEnabled2 ? "#f5dd4b" : "#f4f3f4"}
-          ios_backgroundColor="#3e3e3e"
+          trackColor={{ false: "#f4f3f4", true: "#013A63" }}
+          thumbColor={isEnabled2 ? "#f4f3f4" : "#013A63"}
+          ios_backgroundColor="white"
           onValueChange={toggleSwitch2}
           value={isEnabled2}
         />
