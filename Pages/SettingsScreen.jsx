@@ -31,6 +31,9 @@ const SettingsScreen = () => {
     },
     switch: {
       alignSelf: "flex-end",
+      borderStyle: "solid",
+      borderWidth: 2,
+      borderColor: "#013A63"
     },
   });
 
