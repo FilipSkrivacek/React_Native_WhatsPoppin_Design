@@ -1,7 +1,3 @@
-
-import { StyleSheet, Text, View } from 'react-native';
-
-
 import TabNavigator from './navigation/TabNavigator';
 
 
