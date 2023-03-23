@@ -1,11 +1,5 @@
 import React, { useState } from "react";
-import {
-  View,
-  Text,
-  TextInput,
-  StyleSheet,
-  TouchableOpacity,
-} from "react-native";
+import {View, Text, TextInput, StyleSheet, TouchableOpacity,} from "react-native";
 import CustomButton from "../components/CustomButton";
 
 const AddScreen = ({ navigation, route }) => {
@@ -21,7 +15,9 @@ const AddScreen = ({ navigation, route }) => {
 
   return (
     <View style={styles.root}>
+      
       <Text style={styles.title}>Vytvořit novou akci</Text>
+
       <View style={styles.inputContainer}>
         <TextInput
           style={styles.input}
