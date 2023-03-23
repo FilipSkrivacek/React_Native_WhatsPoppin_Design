@@ -3,7 +3,8 @@
     "name": "design_mockup_skrivacek",
     "slug": "design_mockup_skrivacek",
     "version": "1.0.0",
-    "orientation": "portrait",
+
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
