@@ -2,7 +2,7 @@
 **Předělání designu aplikace od minulých ročníků do Reactu Native**
 
 ## Vzhled aplikace
-![vzhled](https://github.com/pslib-cz/2022-p4-web-react-native-functional-mockup-FilipSkrivacek/blob/master/assets/VzhledAplikace.png)
+![vzhled](https://github.com/FilipSkrivacek/React_Native_WhatsPoppin_Design/blob/29efc8be1abbc17d5862bc5e586af4ea888dc945/assets/VzhledAplikace.png)
 
 Aplikace uživateli nabídne přehled událostí konaných v nejbližší možné době v jeho okolí, které si může nastavit v *nastavevní* buďto pomocí **automaticky určené polohy**, nebo (například v případě, že se uživatel chce podívat, co se koná v jiném městě, kam se třeba chystá) ho **specifikovat ručně**. Na hlavní stránce se události zobrazují ve zkrácené verzi v containerech, které sdělují pouze **základní informace** o dané události. Pomocí tlačítka *podrobnosti* se dá zobrazit stránka s podrobnějšími informacemi o události, jako je třeba **přesné časové rozmezí události**, **případná cena za vstup**, **mapa s přesným místem konání**, **banner k události**, či **popis**.
 
